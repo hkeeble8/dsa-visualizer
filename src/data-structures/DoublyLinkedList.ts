@@ -1,4 +1,4 @@
-import {v4 as uuidv4} from 'uuid';
+// import {v4 as uuidv4} from 'uuid';
 
 export interface INode {
   id: string
@@ -7,17 +7,17 @@ export interface INode {
   prev: INode | null;
 }
 
-interface ITraversedCallback {
-    (traversedId: string): void;
-};
+// interface ITraversedCallback {
+//     (traversedId: string): void;
+// };
 
 class DoublyLinkedList {
     head: INode | null = null;
     tail: INode | null = null;
 
-    addNode(value: number, traversedCallback : ITraversedCallback) {
+    // addNode(value: number, traversedCallback : ITraversedCallback) {
         
-    }
+    // }
 
     getNodes() {
       return []
